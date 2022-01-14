@@ -14,9 +14,10 @@ REM Complete REDUX addon list: https://discord.com/channels/885091526462558228/9
 
 REM Script published on 01/14/22
 REM Script by Ekkaia (https://www.moddb.com/members/ekkaiaa)
+REM Github: https://github.com/nachazo/Redux-translate-MODS-folder-to-english/blob/main/Redux-translate-MODS-folder-to-english.bat
 REM If you have any problem, make sure that file encoding is OEM 866
 
-REM (I will update among REDUX in github: https://github.com/nachazo/Redux-translate-MODS-folder-to-english/raw/master/Redux-translate-MODS-folder-to-english.bat)
+REM I will update among REDUX in github: https://raw.githubusercontent.com/nachazo/Redux-translate-MODS-folder-to-english/master/Redux-translate-MODS-folder-to-english.bat
 
 chcp 866 >nul
 
