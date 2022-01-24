@@ -50,8 +50,8 @@ set ForRename=05. Визуальное снятие брони (Experemental) (HD Models Version)
 set ToRename=05. Visual armor removal (Experimental) (HD Models Version)
 if exist "%ForRename%" ren "%ForRename%" "%ToRename%"
 
-set ForRename=05. Визуальное снятие брони (Experemental) (Vanilla & Dux Versions)
-set ToRename=05. Visual armor removal (Expermental) (Vanilla & Dux Versions)
+set ForRename=05. Визуальное снятие брони (Experemental) (Vanilla ^& Dux Versions)
+set ToRename=05. Visual armor removal (Experimental) (Vanilla ^& Dux Versions)
 if exist "%ForRename%" ren "%ForRename%" "%ToRename%"
 
 set ForRename=06. Зимний текстурный пак
