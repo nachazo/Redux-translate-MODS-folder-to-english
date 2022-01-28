@@ -1,21 +1,8 @@
 @echo off
 
 REM Script for translate to english MODS folder contents titles of Anomaly REDUX mod
-REM Makes easy to use JSGME for non-russian talkers
-REM Just place the bat file on root Anomaly folder with REDUX uncompressed and execute before start JSGME
-REM (Mod work perfectly in english)
-
-REM For REDUX 1.1 version
-REM   With 01/12/22 patch + ExoSeva hotfix
-REM   Get it: https://discord.com/channels/885091526462558228/919551345462222888
-
-REM Don't forget to take a look at users addons for REDUX: https://discord.com/channels/885091526462558228/920247576790458378
-REM Complete REDUX addon list: https://discord.com/channels/885091526462558228/919190032663867422
-
-REM Script published on 01/14/22
 REM Script by Ekkaia (https://www.moddb.com/members/ekkaiaa)
-REM Github: https://github.com/nachazo/Redux-translate-MODS-folder-to-english/blob/main/Redux-translate-MODS-folder-to-english.bat
-REM If you have any problem, make sure that file encoding is OEM 866
+REM Readme and info in github: https://github.com/nachazo/Redux-translate-MODS-folder-to-english
 
 REM I will update among REDUX in github: https://raw.githubusercontent.com/nachazo/Redux-translate-MODS-folder-to-english/master/Redux-translate-MODS-folder-to-english.bat
 
