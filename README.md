@@ -1,9 +1,9 @@
 # Redux-translate-MODS-folder-to-english
 Script for translate to english MODS folder contents titles of Anomaly REDUX mod.
 
-REDUX is a addon pack for Anomaly, based on EFP 2.2, that brings a comprehesive [large list of popular addons](https://discord.com/channels/931572900488699935/931574457192050738) working together with sense and without headaches. It's a stable, frequently updated and well done pack, very polished and spearhead of STALKER modding, with updates and lastest addons ready to use. Can be played in english language without any problem.
+REDUX is a mod or addon pack for Anomaly, based on EFP 2.2, that brings a comprehesive [large list of popular addons](https://discord.com/channels/931572900488699935/931574457192050738) working together with sense and without headaches. It's a stable, frequently updated and well done pack, very polished and spearhead of STALKER modding, with updates and lastest addons ready to use. Can be played in english language without any problem.
 
-It works with JSGME for being installed that gives the chance to select optional working addons to your taste. But as is russian made, the name of these addons that list JSGME are in russian, that could be a problem for non-russian talkers. That was I try to fix with simple scripting.
+It works with JSGME for being installed that gives the chance to select optional working addons to your taste. But as is russian made, the name of the addons that list JSGME is in russian, and could be a problem for non-russian talkers. That was I try to fix with simple scripting.
 
 ### Redux-translate-MODS-folder-to-english.bat
 Translate the titles/names from russian to english. Executing it will transform all folder title names to english. Then, use JSGME for install.
@@ -17,14 +17,14 @@ You can use the direct links:
 * [Redux-translate-MODS-folder-to-english.bat](https://raw.githubusercontent.com/nachazo/Redux-translate-MODS-folder-to-english/main/Redux-translate-MODS-folder-to-english.bat)
 * [Redux-back-MODS-to-russian.bat](https://raw.githubusercontent.com/nachazo/Redux-translate-MODS-folder-to-english/main/Redux-back-MODS-to-russian.bat)
 
-Then, download with your browser (File -> Save as) and place it in the Anomaly/REDUX root folder. That will mantain the file enconfing and format without problems.
+Then, download with your browser (File -> Save as) and place it in the Anomaly/REDUX root folder. That will mantain the file enconfing and format without problems. If you have any problem, make sure that file encoding is OEM 866.
 
 You can also go to the file here in github, and click on "Raw" button (you'll reach same url than the direct links).
 
 ## Installing REDUX 1.1
 
 1. Go to REDUX discord server: https://discord.gg/Cn9t32Gm (accept with the "✅" in the initial message for enter in the server).
-2. Go to "[основная-сборка](https://discord.com/channels/931572900488699935/931574356340015184)" channel. Here you have main mod contents file link, 1.1 version under "Ссылки на скачивание Redux 1.1" (i.e Google Drive mirror - there will no more messages there).
+2. Go to "[основная-сборка](https://discord.com/channels/931572900488699935/931574356340015184)" channel. Here you have main mod contents file link, 1.1 version under "Ссылки на скачивание Redux 1.1" (i.e Google Drive mirror - there will no much more messages here).
 3. And get the culminative patch (small updates, fixes...). It is in the same channel, down to last link at "Redux 1.1 от 26.01.22" block.
 4. Unzip a clear Anomaly 1.5.1 install (download from https://discord.gg/c4RuJNs channel "[download-install](https://discord.com/channels/456765861953536020/777245134852718592)")
 5. Unzip REDUX 1.1 on these folder, and the patches (this will not overwrite nothing, just create a "MODS" folder with the contents you will select with JSGME).
@@ -32,7 +32,9 @@ You can also go to the file here in github, and click on "Raw" button (you'll re
 7. Open JSGME.exe (delete JSGME.lng if exists, for open in english).
 8. Now select in order the parts you want. Obviously "01. Redux (base)" is mandatory.
 
-If you're updating and not installing, read what is write in **Redux-back-MODS-to-russian.bat** section.
+If you're updating and not installing, read what is write in **Redux-back-MODS-to-russian.bat** section. For update with the patches provided by REDUX authors, easiest way is capture an screenshot of your actual JSGME configuration. You may de-select all the addons in MODS. Then, use the *Redux-back-MODS-to-russian.bat*, unzip the patch (for get the contents of MODS updated).
+
+When you've the folder updated, go back again to english with *Redux-translate-MODS-folder-to-english.bat* and open JSGME and replicate the configuration that you could see with the screenshot you made. Configurations and savegames, as is in *appdata* folder, aren't touched.
 
 ## Recomendations
 Among the contents from the mod, I use in my playruns and recommend:
@@ -41,5 +43,7 @@ Among the contents from the mod, I use in my playruns and recommend:
 - Dymanic Objects: https://www.moddb.com/mods/stalker-anomaly/addons/dynamic-objects-v1-05
 - joeshade ReShade (or another you like): https://www.moddb.com/mods/stalker-anomaly/addons/joeshade
 - 2K Upscaled Skyboxes: https://www.moddb.com/mods/stalker-anomaly/addons/2k-upscaled-skyboxes-almost-definitive-edtion
+
+Download and drop in the "MODS" folder. Install as another addons with JSGME.
 
 Take a look to some extra contents or optional changes created by players in the REDUX discord, in the [юзер-правки](https://discord.com/channels/931572900488699935/931576807428341840) (user-edits) channel.
