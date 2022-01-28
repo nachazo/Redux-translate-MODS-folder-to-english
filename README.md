@@ -21,7 +21,7 @@ Then, download with your browser (File -> Save as) and place it in the Anomaly/R
 
 You can also go to the file here in github, and click on "Raw" button (you'll reach same url than the direct links).
 
-## Installing REDUX 1.1
+## Installing or updating REDUX 1.1
 
 1. Go to REDUX discord server: https://discord.gg/Cn9t32Gm (accept with the "✅" in the initial message for enter in the server).
 2. Go to "[основная-сборка](https://discord.com/channels/931572900488699935/931574356340015184)" channel. Here you have main mod contents file link, 1.1 version under "Ссылки на скачивание Redux 1.1" (i.e Google Drive mirror - there will no much more messages here).
@@ -36,6 +36,15 @@ If you're updating and not installing, read what is write in **Redux-back-MODS-t
 
 When you've the folder updated, go back again to english with *Redux-translate-MODS-folder-to-english.bat* and open JSGME and replicate the configuration that you could see with the screenshot you made. Configurations and savegames, as is in *appdata* folder, aren't touched.
 
+Instead the screenshoot, you could also use the JSGME mod profile **for updating**:
+
+1. Open JSGME and save your mod profile: *Tasks -> Save mod profile*. It's a simply text file. Save, for example, in your Anomaly root.
+2. De-select all addons in JSGME and close it.
+3. Execute bat: **Redux-back-MODS-to-russian.bat**.
+4. Uncompress the patch file downloaded from REDUX authors.
+5. Execute bat: **Redux-translate-MODS-folder-to-english.bat**.
+6. Open JSGME, go to *Tasks" -> Load mod profile* and select the file saved in step 1.
+
 ## Recomendations
 Among the contents from the mod, I use in my playruns and recommend:
 - Dead Zone 4K texture pack (not grass, only base files for my taste): https://www.patreon.com/posts/updated-dead-58374306
@@ -43,7 +52,9 @@ Among the contents from the mod, I use in my playruns and recommend:
 - Dymanic Objects: https://www.moddb.com/mods/stalker-anomaly/addons/dynamic-objects-v1-05
 - joeshade ReShade (or another you like): https://www.moddb.com/mods/stalker-anomaly/addons/joeshade
 - 2K Upscaled Skyboxes: https://www.moddb.com/mods/stalker-anomaly/addons/2k-upscaled-skyboxes-almost-definitive-edtion
+- T.H.A.P. Rework 2.0 for REDUX: https://discord.com/channels/931572900488699935/931576807428341840/933965571744227409
+- Death animations for REDUX: https://cdn.discordapp.com/attachments/931576807428341840/936394919432572948/Restore_death_animations.zip
 
-Download and drop in the "MODS" folder. Install as another addons with JSGME.
+Download and drop folders in the "MODS" folder. Install as another addons with JSGME.
 
 Take a look to some extra contents or optional changes created by players in the REDUX discord, in the [юзер-правки](https://discord.com/channels/931572900488699935/931576807428341840) (user-edits) channel.
